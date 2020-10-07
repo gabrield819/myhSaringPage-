@@ -1,0 +1,26 @@
+public class Operacoes {
+    public static void main(String[] args) {
+
+        //Definição de variáveis 
+        int a = 2;
+        int b = 3;
+        int c = 4;
+        
+        //Adição       
+        int resultado = a + b;
+        System.out.println(resultado); 
+        
+        //Subtração
+        resultado = c - a;
+        System.out.println(resultado);
+        
+        //Multiplicação e divisão
+        resultado = (a * b) / b;
+        System.out.println(resultado);
+        
+        //Módulo
+        resultado = c % 3;
+        System.out.println(resultado);
+        
+    }   
+}
